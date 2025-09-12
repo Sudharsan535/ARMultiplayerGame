@@ -11,6 +11,23 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 *.log
+*.tgz
+Assets/Vuforia/Editor/
+Assets/Vuforia/StreamingAssets/
+Assets/Resources/Vuforia/
+Assets/Editor/QCAR/
+
+# ARCamera config backups
+*.dat
+*.xml
+
+# Vuforia Engine package temp stuff
+.vuforia/
+.vuforiaDevelopment/
+
+# Local tracking datasets (don’t push unless needed by all devs)
+Assets/StreamingAssets/Vuforia/*.dat
+Assets/StreamingAssets/Vuforia/*.xml
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
